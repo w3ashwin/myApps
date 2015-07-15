@@ -1,0 +1,17 @@
+@font-face {
+    font-family: FLight;
+    src: url('../fonts/Roboto-Thin.ttf')
+	
+}
+
+@font-face {
+    font-family: FRegular;
+    src: url('../fonts/Roboto-Regular.ttf')
+	
+}
+
+@font-face {
+    font-family: FBold;
+    src: url('../fonts/Roboto-Bold.ttf')
+	
+}

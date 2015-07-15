@@ -1,0 +1,126 @@
+@import 'fontMap.css';
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: FRegular;
+    background: #F0F0F0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    min-width: 1000px !important;
+}
+
+button {
+    outline: 0 !important;
+}
+
+.btn-material {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    transition-duration: 0.2s;
+    padding: 6px 20px;
+}
+
+.btn-material:active {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.21);
+}
+
+.btn-pink {
+    background-color: #FF4081;
+    color: #FFF !important;
+}
+
+.btn-pink:active {
+    background-color: #FF6FA0;
+}
+
+.mForm-group .form-control {
+    outline: 0px;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid;
+}
+
+.container {
+    min-width: 1000px;
+}
+
+header {
+    background: #373C5A;
+}
+
+.topBar {
+    padding: 5px 20px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    margin: 20px 0px 5px;
+    color: #FFF;
+}
+
+nav.tabSection {
+    width: 100%;
+    float: left;
+}
+
+nav.tabSection>ul {
+    width: 100%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav.tabSection>ul>li {
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+nav.tabSection>ul>li.active {
+    color: #FFF;
+    border-bottom: 3px solid #FF4081;
+}
+
+#enterTodo {
+    padding: 5px 20px;
+}
+
+.todoItems {
+    margin: 10px 0px;
+}
+
+.todoItems ul {
+    padding: 0px;
+}
+
+.todoItems li {
+    list-style: none;
+    padding: 15px;
+    background-color: #FFF;
+    margin-bottom: 10px;
+}
+
+span.myTodoList {
+    width: 90%;
+    display: inline-table;
+    padding-left: 7px;
+}
+
+.itemDone {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.deleteItem {
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none !important;
+}

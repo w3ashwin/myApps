@@ -1,0 +1,33 @@
+<section id="Todo" ng-controller="myTodoCtrl">
+	<div class="row">
+		<div class="col-xs-8 col-xs-offset-2">
+			<form ng-submit="newTodo()">
+				<div class="form-group mForm-group">
+					<div class="row">
+						<div class="col-xs-11">
+							<input type="text" class="form-control" id="enterTodo" placeholder="Enter ToDo" ng-model="TodoInput">
+						</div>
+						<div class="col-xs-1">
+							<button class="btn btn-material btn-pink"><i class="fa fa-paper-plane"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<div class="todoItems">
+				<ul>
+					<li ng-repeat="ti in todo">
+						<input type="checkbox" ng-model="ti.isDone" class="isDone">
+						<span class="myTodoList" ng-class="{itemDone:ti.isDone}">{{ti.item}}</span>
+						<button type="button" class="btn deleteItem pull-right" ng-click="removeItem($index)"><i class="fa fa-times"></i>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
